@@ -120,7 +120,7 @@ public class FunctionalSet<E> implements Set<E> {
 
     @Override
     public Iterator<E> iterator() {
-        // IMPLEMENT ME
+        return new FunctionalSetIterator<E>(this, this.head);
     }
 
     @Override

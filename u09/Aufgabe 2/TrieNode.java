@@ -63,6 +63,7 @@ public class TrieNode<E> {
      */
     public boolean add(String key, E element) {
         // IMPLEMENT ME
+		return false;
     }
 
     /**
