@@ -9,8 +9,13 @@ public class TrieIterator<E> implements Iterator<E>{
 	
 	@Override
     public boolean hasNext() {
-        return !(this.current instanceof EmptySet);
+        return !(this.current == null);
     }
+	
+	public TrieNode<E> next() {
+	
+	
+	}
 
 
 }

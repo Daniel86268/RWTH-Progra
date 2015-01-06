@@ -11,4 +11,7 @@ removePairs x  					 = x
 listSum :: [Int] -> Int
 listSum [] = 0
 listSum (x:xs) = x + (listSum xs)
+
+
+factorial :: Int -> Int
 								 
